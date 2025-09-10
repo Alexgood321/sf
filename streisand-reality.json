@@ -1,0 +1,26 @@
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "se-node",
+      "server": "domain-crazyops-se.isgood.host",
+      "server_port": 443,
+      "uuid": "51c8cbec-5b63-455c-8d55-5bca2db3cfa2",
+      "flow": "xtls-rprx-vision",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "domain-crazyops-se.isgood.host",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iwBEYEODgcATEhf0fayJKmqE0OdS-6xlXALewhKVI3k",
+          "short_id": "c68254c49696258d"
+        }
+      }
+    }
+  ]
+}
